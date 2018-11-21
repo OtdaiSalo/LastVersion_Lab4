@@ -4,44 +4,44 @@
 using namespace std;
 class lamp {
 
-	char type;
-	double power;
-	double quantity;
-	char producer;
+	char typeOfLamp;
+	double powerOfLamp;
+	double quantityOfLamps;
+	char producerOfLamp;
 protected: 
-	double cost, discount;
+	double costOfLamp, discountSize;
 public:
 	lamp() {
 
 	}
-	lamp(char Type, double Power, double Quantity, char Producer, double Cost, double Discount) {
-		type = Type;
-		power = Power;
-		quantity = Quantity;
-		producer = Producer;
-		cost = Cost;
-		discount = Discount;
+	lamp(char TypeOfLamp, double PowerOfLamp, double QuantityOfLamps, char ProducerOfLamp, double CostOfLamp, double DiscountSize) {
+		typeOfLamp = TypeOfLamp;
+		powerOfLamp = PowerOfLamp;
+		quantityOfLamps = QuantityOfLamps;
+		producerOfLamp = ProducerOfLamp;
+		costOfLamp = CostOfLamp;
+		discountSize = DiscountSize;
 	}
-	void getType() {
-		cout << " type=" << type << "\n";
+	void getLampType() {
+		cout << " type of this lamp = " << typeOfLamp << "\n";
 
 	}
-	void getPower() {
-		cout << " power=" << power << "\n";
+	void getPowerOfLamp() {
+		cout << " power of this lamp = " << powerOfLamp << "\n";
 
 	}
-	void getQuantity() {
-		cout << " quantity=" << quantity << "\n";
+	void getQuantityOfLamps() {
+		cout << " quantity of lamps = " << quantityOfLamps << "\n";
 
 	}
-	void getProducer() {
-		cout << " producer=" << producer << "\n";
+	void getProducergetNameOfLampProducer() {
+		cout << " producer of this lamp = " << producerOfLamp << "\n";
 	}
-	void getCost() {
-		cout << " cost=" << cost << "\n";
+	void getCostOfLamp() {
+		cout << " cost of this lamp = " << costOfLamp << "\n";
 	}
-	void getDiscount() {
-		cout << " discount=" << discount << "\n";
+	void getSizeOfDiscount() {
+		cout << "size of discount on this lamp = " << discountSize << "\n";
 	}
 
 };
